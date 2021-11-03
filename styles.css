@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color:hsl(233, 47%, 7%);
+  text-align: center;
+}
+
+.card-container{
+  background-color:hsl(244, 38%, 16%);
+  width:90%;
+  margin:10vh auto;
+  border-radius: 10px ;
+  max-width: 375px;
+  overflow:auto;
+
+}
+
+.hero-image-container{
+  background-color: hsl(277, 64%, 61%);
+  border-radius: 10px 10px 0 0 ;
+}
+
+.hero-image-mobile{
+  display:block;
+  width:100%;
+  height:auto;
+  overflow:hidden;
+  mix-blend-mode:multiply;
+}
+
+.hero-image-desktop{
+  display:none;
+}
+
+.hero-text{
+  width:85%;
+  margin:0 auto;
+  padding-bottom: 0.5em;
+}
+
+h1{
+  color:hsl(0, 0%, 100%);
+  font-family: "inter", sans-serif;
+  font-size:1.76rem;
+}
+
+.accent{
+  color:hsl(277, 64%, 61%);
+}
+
+p{
+  font-family: "lexend Deca", sans-serif;
+  font-size: 0.938rem;
+  font-weight: 400;
+  color:hsla(0, 0%, 100%, 0.75);
+  line-height: 1.6rem;
+}
+
+ul{
+  list-style:none;
+  font-family: "inter", sans-serif;
+  text-transform: uppercase;
+  color:hsla(0, 0%, 100%, 0.6);
+  padding-left: 0;
+  font-size:0.8rem;
+  display: block;
+  margin: 2.75em 0 2.75em 0;
+  letter-spacing: 0.05rem;
+}
+
+
+.li-bold{
+  font-size:1.3rem;
+  color:hsl(0, 0%, 100%);
+  font-weight: 700;
+  display:block;
+  padding-bottom: 0.35em;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.attribution {
+  font-size: 0.94rem;
+  text-align: center;
+  color:hsla(0, 0%, 100%, 0.6);
+}
+
+.attribution a {
+  color: hsl(277, 64%, 61%);
+}
+
+
+
+
+@media (min-width:1250px){
+
+  .card-container{
+    margin:20vh auto;
+    display:flex;
+    flex-direction: row-reverse;
+    max-width: none;
+    text-align: left;
+    max-width: 1191px ;
+    min-width: 1191px;
+
+  }
+
+  .hero-image-container{
+    border-radius: 0 10px 10px 0;
+  }
+
+  h1{
+    font-size:2.4rem;
+  }
+
+  .p-div{
+    width:80%;
+  }
+
+
+  .text-box{
+    width:50%;
+    margin:1em;
+    padding:1.5em 3em 0 1em;
+  }
+
+  .hero-image-desktop{
+    display:block;
+    width:100%;
+    height:auto;
+    mix-blend-mode: multiply;
+    overflow:hidden;
+  }
+
+  .hero-image-mobile{
+    display:none;
+  }
+
+  .list-box{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width:80%;
+  }
+
+  ul{
+    padding:0.5em 0;
+  }
