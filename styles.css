@@ -115,21 +115,6 @@ ul{
     border-radius: 0 10px 10px 0;
   }
 
-  h1{
-    font-size:2.4rem;
-  }
-
-  .p-div{
-    width:80%;
-  }
-
-
-  .text-box{
-    width:50%;
-    margin:1em;
-    padding:1.5em 3em 0 1em;
-  }
-
   .hero-image-desktop{
     display:block;
     width:100%;
@@ -140,6 +125,20 @@ ul{
 
   .hero-image-mobile{
     display:none;
+  }
+
+  h1{
+    font-size:2.4rem;
+  }
+
+  .p-div{
+    width:80%;
+  }
+
+  .text-box{
+    width:50%;
+    margin:1em;
+    padding:1.5em 3em 0 1em;
   }
 
   .list-box{
